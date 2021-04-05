@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register(r'snippets', views.SnippetViewSet)
-router.register(r'snippets', views.UserViewSEt)
+router.register(r'snippets', views.UserViewSet)
 
 
 urlpatterns = [
